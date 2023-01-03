@@ -1,0 +1,68 @@
+11:25:28.748 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:25:47.333 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:47.628 [main] ERROR com.intuit.karate - classpath:features/getRequestM.feature:5
+Given url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/getRequestM.feature:5
+11:25:47.804 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:47.821 [main] ERROR com.intuit.karate - classpath:features/getRequestM.feature:5
+Given url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/getRequestM.feature:5
+11:25:47.935 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:48.035 [main] ERROR com.intuit.karate - classpath:features/getRequestM.feature:5
+Given url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/getRequestM.feature:5
+11:29:37.692 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:29:40.498 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:40.666 [main] ERROR com.intuit.karate - classpath:features/getRequestM.feature:5
+Given url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/getRequestM.feature:5
+11:29:40.787 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:40.807 [main] ERROR com.intuit.karate - classpath:features/getRequestM.feature:5
+Given url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/getRequestM.feature:5
+11:29:40.932 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:40.984 [main] ERROR com.intuit.karate - classpath:features/getRequestM.feature:5
+Given url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/getRequestM.feature:5

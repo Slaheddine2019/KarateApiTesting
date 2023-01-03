@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/com\/api\/features\/getAllData[1:6]","start":1670492449490,"end":1670492451505,"title":"src\/test\/java\/com\/api\/features\/getAllData[1:6] 10:40:49.490-10:40:51.505 get all the data on format json","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/com\/api\/features\/getAllData[2:42]","start":1670492451521,"end":1670492451888,"title":"src\/test\/java\/com\/api\/features\/getAllData[2:42] 10:40:51.521-10:40:51.888 To get the data in XML format"},{"id":3,"group":1,"content":"src\/test\/java\/com\/api\/features\/getAllData[3:57]","start":1670492451910,"end":1670492451968,"title":"src\/test\/java\/com\/api\/features\/getAllData[3:57] 10:40:51.910-10:40:51.968 To get the data in XML format and validate using fuzzy matcher"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
